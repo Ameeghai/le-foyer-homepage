@@ -11,19 +11,17 @@ import AboutUs from './components/about_us';
   function App() {
     return (
       <div className="App">
-      
+      <Header/>
       <QuoteForm/>
       <AboutUs/>
-     <div><Header/></div> 
       <OurServices />
       <WhyUs />
       <FiveSteps />
       <CompareSlider/>
-
+      <DesignStories/>
       <Footer/>
-    
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
